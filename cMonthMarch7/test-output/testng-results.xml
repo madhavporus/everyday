@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7147" started-at="2018-03-10T04:24:25Z" finished-at="2018-03-10T04:24:32Z">
+  <suite name="Default suite" duration-ms="12307" started-at="2018-03-12T18:46:12Z" finished-at="2018-03-12T18:46:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7147" started-at="2018-03-10T04:24:25Z" finished-at="2018-03-10T04:24:32Z">
+    <test name="Default test" duration-ms="12307" started-at="2018-03-12T18:46:12Z" finished-at="2018-03-12T18:46:24Z">
       <class name="com.y18.cMonthMarch7.tests.LoginAmzTC">
-        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.y18.cMonthMarch7.tests.LoginAmzTC@100fc185]" name="openApplication" is-config="true" duration-ms="3654" started-at="2018-03-09T20:24:25Z" finished-at="2018-03-09T20:24:29Z">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.y18.cMonthMarch7.tests.LoginAmzTC@100fc185]" name="openApplication" is-config="true" duration-ms="4477" started-at="2018-03-12T11:46:12Z" finished-at="2018-03-12T11:46:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method status="PASS" signature="accessMainPage()[pri:0, instance:com.y18.cMonthMarch7.tests.LoginAmzTC@100fc185]" name="accessMainPage" duration-ms="585" started-at="2018-03-09T20:24:29Z" finished-at="2018-03-09T20:24:29Z">
+        <test-method status="PASS" signature="accessMainPage()[pri:0, instance:com.y18.cMonthMarch7.tests.LoginAmzTC@100fc185]" name="accessMainPage" duration-ms="2542" started-at="2018-03-12T11:46:17Z" finished-at="2018-03-12T11:46:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accessMainPage -->
-        <test-method status="PASS" signature="loginTpAmz()[pri:0, instance:com.y18.cMonthMarch7.tests.LoginAmzTC@100fc185]" name="loginTpAmz" duration-ms="2894" started-at="2018-03-09T20:24:29Z" finished-at="2018-03-09T20:24:32Z">
+        <test-method status="PASS" signature="loginTpAmz()[pri:0, instance:com.y18.cMonthMarch7.tests.LoginAmzTC@100fc185]" name="loginTpAmz" duration-ms="5275" started-at="2018-03-12T11:46:19Z" finished-at="2018-03-12T11:46:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTpAmz -->
