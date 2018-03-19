@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13705" started-at="2018-03-19T18:34:13Z" finished-at="2018-03-19T18:34:27Z">
+  <suite name="Default suite" duration-ms="16568" started-at="2018-03-19T20:34:38Z" finished-at="2018-03-19T20:34:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13705" started-at="2018-03-19T18:34:13Z" finished-at="2018-03-19T18:34:27Z">
+    <test name="Default test" duration-ms="16568" started-at="2018-03-19T20:34:38Z" finished-at="2018-03-19T20:34:55Z">
       <class name="com.y18.cMonthMarch12.tests.LoginTestM12">
-        <test-method status="PASS" signature="openAppInBrowser()[pri:0, instance:com.y18.cMonthMarch12.tests.LoginTestM12@100fc185]" name="openAppInBrowser" is-config="true" duration-ms="5321" started-at="2018-03-19T11:34:13Z" finished-at="2018-03-19T11:34:18Z">
+        <test-method status="PASS" signature="openAppInBrowser()[pri:0, instance:com.y18.cMonthMarch12.tests.LoginTestM12@100fc185]" name="openAppInBrowser" is-config="true" duration-ms="8145" started-at="2018-03-19T13:34:38Z" finished-at="2018-03-19T13:34:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAppInBrowser -->
-        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.y18.cMonthMarch12.tests.LoginTestM12@100fc185]" name="verifyLogin" duration-ms="6745" started-at="2018-03-19T11:34:18Z" finished-at="2018-03-19T11:34:25Z">
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.y18.cMonthMarch12.tests.LoginTestM12@100fc185]" name="verifyLogin" duration-ms="6593" started-at="2018-03-19T13:34:46Z" finished-at="2018-03-19T13:34:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="verifyCreateList()[pri:0, instance:com.y18.cMonthMarch12.tests.LoginTestM12@100fc185]" name="verifyCreateList" duration-ms="1623" started-at="2018-03-19T11:34:25Z" finished-at="2018-03-19T11:34:27Z">
+        <test-method status="PASS" signature="verifyCreateList()[pri:0, instance:com.y18.cMonthMarch12.tests.LoginTestM12@100fc185]" name="verifyCreateList" duration-ms="1815" started-at="2018-03-19T13:34:53Z" finished-at="2018-03-19T13:34:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCreateList -->

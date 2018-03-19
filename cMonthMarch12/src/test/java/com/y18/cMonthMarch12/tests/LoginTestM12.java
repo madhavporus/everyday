@@ -1,4 +1,6 @@
 package com.y18.cMonthMarch12.tests;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import static org.testng.Assert.assertEquals;
 
 import org.openqa.selenium.WebDriver;
@@ -25,14 +27,14 @@ public void verifyLogin() {
 	LoginPageM12 lp = PageFactory.initElements(driver, LoginPageM12.class);  
 	//Below method intern calls the getTestDataFromJSON() method to get the required test data to login! 
 	lp.loginApp();
-	Assert.assertEquals(lp.actualPageTitle(),lp.expectedPageTitle());
+	AssertJUnit.assertEquals(lp.actualPageTitle(),lp.expectedPageTitle());
 	
 	}
 
 @Test(priority=2)
 public void verifyCreateList() {
 	LoginPageM12 lp = PageFactory.initElements(driver, LoginPageM12.class);  
-	Assert.assertEquals(lp.actualPageTitleOfCreateList(),lp.expectedPageTitleOfCreateList());
+	AssertJUnit.assertEquals(lp.actualPageTitleOfCreateList(),lp.expectedPageTitleOfCreateList());
 }
 
 
