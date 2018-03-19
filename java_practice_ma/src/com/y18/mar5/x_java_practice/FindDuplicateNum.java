@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class FindDuplicateNum {
 	public static void findDup() {
 		int i,o;
-		int[] ar = {2,2,5,3,3,6,1,1,5};  // GIVE ARRAY WITH DUPLICATE NUMBERS
+		int[] ar = {2,2,5,3,3,6,1,1,5,9,9};  // GIVE ARRAY WITH DUPLICATE NUMBERS
 		ArrayList<Integer> al = new ArrayList<>(); // ARRAY LIST TO ADD THE NUMBERS WHICH ARE IN DUPLICATE!
 		System.out.println("Array length: "+ar.length);
 		
@@ -23,6 +23,7 @@ public class FindDuplicateNum {
 		System.out.println("Below are the duplicate numbers in your list");
 		for(int x:al) {  // ADVANCED FOR LOOP TO ITERATE THROUGH ARRAY LIST AND PRINT ALL VALUES FROM IT.
 			System.out.print(x);
+			System.out.print(",");
 		}
 	} //End of Method findDup()
 		
