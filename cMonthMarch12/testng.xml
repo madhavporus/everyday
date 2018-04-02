@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.y18.cMonthMarch12.tests.LoginTestM12"/>
+      <class name="com.y18.cMonthMarch12.tests.Sample"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.y18.cMonthMarch12.tests.LoginTestM12">
+      <class name="com.y18.cMonthMarch12.tests.Sample">
         <methods>
-          <include name="verifyCreateList"/>
-          <include name="openAppInBrowser"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- com.y18.cMonthMarch12.tests.LoginTestM12 -->
+      </class> <!-- com.y18.cMonthMarch12.tests.Sample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

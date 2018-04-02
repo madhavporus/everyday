@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 5px;
+}
+</style>
+
+<head>
+<meta charset="UTF-8">
+<title>Madhava's web page - for automated testing!</title>
+</head>
+<body>
+
+
+	<form>
+		<h1>Radio Button</h1>
+		<input type="radio" name="course" value="jr" checked>Java
+		Radio<br> <input type="radio" name="course" value="sr">Selenium
+		Radio<br> <input type="radio" class="xyz" name="course" value="jr">Jenkins
+		Radio
+	</form>
+
+	<form>
+		<h1>Check Box</h1>
+		<input type="checkbox" id="javaid" value="jac"> Java CheckBox
+		<br> <input type="checkbox" id="seleniumid" value="sec">
+		Selenium CheckBox <br> <input type="checkbox" id="jenkinsID"
+			value="jec"> Jenkins CheckBox
+	</form>
+
+	<form>
+		<h1>Table</h1>
+		<table border="1">
+			<tr>
+				<th>Java Collections</th>
+				<th>Python</th>
+			</tr>
+			<tr>
+				<td><a
+					href="https://www.tutorialspoint.com/java/java_collections.htm">Java
+						Tutorials Point</a></td>
+				<td><a href="https://www.python.org/about/gettingstarted/">Python
+						Org!</a></td>
+			</tr>
+			<tr>
+				<td><a
+					href="https://beginnersbook.com/java-tutorial-for-beginners-with-examples/">Java
+						Beginners Book</a></td>
+				<td><a href="https://www.tutorialspoint.com/python/index.htm">Python
+						Tutorials Point!</a></td>
+			</tr>
+		</table>
+	</form>
+	<h1>DropDown List - Select a course!</h1>
+	<select name="courselist">
+		<option class="drplist" value="java">JAVA Dropdown Item</option>
+		<option class="drplist" value="selenium">SELENIUM Dropdown Item</option>
+		<option class="drplist" value="jenkins">JENKINS Dropdown Item</option>
+		<option class="drplist" value="cucumber">CUCUMBER Dropdown Item</option>
+		<option class="drplist" value="python">PYTHON Dropdown Item</option>
+	</select>
+	<h1>Nested Table!</h1>
+	<table>
+		<tr>
+			<td>
+				<p>This is a first paragraph in First Cell of Parent Table Says
+					Java</p>
+				<p>This is a second paragraph in First Cell of Parent Table Says
+					Python</p>
+			</td>
+			<td>This cell contains a table of DevOps Tools and Programming
+				languages:
+				<table>
+					<tr>
+						<td>Jenkins (CI)</td>
+						<td>Docker</td>
+						<td>Java</td>
+						<td>Python</td>
+					</tr>
+					<tr>
+						<td>Ansibel (CD)</td>
+						<td>Amazon-EC2 Instance</td>
+						<td>Selenium</td>
+						<td>PHP</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>This cell contains a list of Must do's
+				<ul>
+					<li>Breath Java</li>
+					<li>Walk Selenium</li>
+					<li>Eat Cucumber</li>
+				</ul>
+			</td>
+			<td>Last cell in Parent table - JAVA Collections!</td>
+		</tr>
+	</table>
+
+
+</body>
+</html>

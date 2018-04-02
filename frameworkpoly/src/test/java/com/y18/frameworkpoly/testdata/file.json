@@ -1,0 +1,18 @@
+[	
+	{
+		"uid": "Lakshay",
+		"pwd": "Sharma",
+		"yahooFinanceHomePageTestData": {
+			"YAHOO_FINANCE_HOME_PAGE_URL": "https://finance.yahoo.com/",
+			"YAHOO_FINANCE_HOME_PAGE_TITLE": "Yahoo Finance - Business Finance, Stock Market, Quotes, News"
+		},
+		"yahooFinanceWatchlistPageTestData": {
+			"YAHOO_FINANCE_WATCHLIST_PAGE_URL": "https://finance.yahoo.com/watchlists",
+			"YAHOO_FINANCE_WATCHLIST_PAGE_TITLE": "Explore Curated Watchlists"
+		},
+		"yahooFinanceIndustriesPageTestData": {
+			"YAHOO_FINANCE_INDUSTRIES_PAGE_URL": "https://finance.yahoo.com/industries",
+			"YAHOO_FINANCE_INDUSTRIES_PAGE_TITLE": "Industry Center"
+		}
+	}
+]
