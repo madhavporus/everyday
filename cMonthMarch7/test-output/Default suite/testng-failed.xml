@@ -5,6 +5,7 @@
     <classes>
       <class name="com.y18.cMonthMarch7.tests.LoginAmzTC">
         <methods>
+          <include name="accessMainPage"/>
           <include name="openApplication"/>
           <include name="loginTpAmz"/>
         </methods>

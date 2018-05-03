@@ -1,20 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14270" started-at="2018-03-28T23:13:39Z" finished-at="2018-03-28T23:13:54Z">
+  <suite name="Default suite" duration-ms="12927" started-at="2018-05-03T00:11:25Z" finished-at="2018-05-03T00:11:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14270" started-at="2018-03-28T23:13:39Z" finished-at="2018-03-28T23:13:54Z">
+    <test name="Default test" duration-ms="12927" started-at="2018-05-03T00:11:25Z" finished-at="2018-05-03T00:11:38Z">
       <class name="com.y18.e2eProject.tests.UITests">
-        <test-method status="PASS" signature="startBrowser()[pri:1, instance:com.y18.e2eProject.tests.UITests@523884b2]" name="startBrowser" duration-ms="6050" started-at="2018-03-28T23:13:39Z" finished-at="2018-03-28T23:13:45Z">
+        <test-method status="PASS" signature="startBrowser()[pri:1, instance:com.y18.e2eProject.tests.UITests@66a3ffec]" name="startBrowser" duration-ms="2140" started-at="2018-05-03T00:11:25Z" finished-at="2018-05-03T00:11:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="selectRadio()[pri:2, instance:com.y18.e2eProject.tests.UITests@523884b2]" name="selectRadio" duration-ms="8199" started-at="2018-03-28T23:13:45Z" finished-at="2018-03-28T23:13:54Z">
+        <test-method status="PASS" signature="closeall()[pri:0, instance:com.y18.e2eProject.tests.UITests@66a3ffec]" name="closeall" is-config="true" duration-ms="86" started-at="2018-05-03T00:11:27Z" finished-at="2018-05-03T00:11:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectRadio -->
+        </test-method> <!-- closeall -->
+        <test-method status="PASS" signature="statePage()[pri:2, instance:com.y18.e2eProject.tests.UITests@66a3ffec]" name="statePage" duration-ms="2665" started-at="2018-05-03T00:11:28Z" finished-at="2018-05-03T00:11:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statePage -->
+        <test-method status="PASS" signature="closeall()[pri:0, instance:com.y18.e2eProject.tests.UITests@66a3ffec]" name="closeall" is-config="true" duration-ms="530" started-at="2018-05-03T00:11:30Z" finished-at="2018-05-03T00:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeall -->
+        <test-method status="PASS" signature="dynamicPage()[pri:3, instance:com.y18.e2eProject.tests.UITests@66a3ffec]" name="dynamicPage" duration-ms="7402" started-at="2018-05-03T00:11:31Z" finished-at="2018-05-03T00:11:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicPage -->
+        <test-method status="PASS" signature="closeall()[pri:0, instance:com.y18.e2eProject.tests.UITests@66a3ffec]" name="closeall" is-config="true" duration-ms="79" started-at="2018-05-03T00:11:38Z" finished-at="2018-05-03T00:11:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeall -->
       </class> <!-- com.y18.e2eProject.tests.UITests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

@@ -36,7 +36,8 @@ public class LoginPageM12 {
 	//@FindBy(how = How.ID, using = "nav-link-accountList")
 	WebElement loginLinkELm;
 	
-	@FindBy(how = How.CSS, using = "input.a-input-text.a-span12.auth-autofocus.auth-required-field")
+//	@FindBy(how = How.CSS, using = "input.a-input-text.a-span12.auth-autofocus.auth-required-field")
+	@FindBy(how = How.CSS, using = "[name='email']")
 	WebElement uidInputElm;
 			
 	@FindBy(how = How.CSS, using = "input.a-button-input") 
@@ -48,7 +49,8 @@ public class LoginPageM12 {
 	@FindBy(how = How.XPATH, using=".//*[@class='a-button-input' and @id='signInSubmit']")
 	WebElement signInBtnElm;
 	
-	@FindBy(how = How.ID, using ="nav-link-accountList")
+	//@FindBy(how = How.ID, using ="nav-link-accountList")
+	@FindBy(how = How.ID, using ="ap_email")
 	WebElement menuElmToCreateList;
 	
 	//@FindBy(how = How.ID, using = "nav-al-your-account") WebElement parentOfListElms;

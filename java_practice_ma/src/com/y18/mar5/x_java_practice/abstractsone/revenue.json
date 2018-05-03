@@ -1,0 +1,13 @@
+{
+"clientrevenue":
+	{
+	"fixed_rate":{
+		"apple":{"workhours":40, "billingrate":38},
+		"amazon":{"workhours":40, "billingrate":38}	
+	  },
+	"hourly_rate":{
+		"apple":{"workhours":40, "billingrate":38},
+		"amazon":{"workhours":40, "billingrate":38}	
+	  }
+    }
+}

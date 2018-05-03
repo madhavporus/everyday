@@ -17,12 +17,32 @@ public class BrowserFactory {
 		WebDriver driver=null;	
 		if(browserType.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", "/Users/madhavareddy/eclipse-workspace/ma_support_files/chromedriver");
+			driver = new ChromeDriver();
+		}else if(browserType.equalsIgnoreCase("Firefox")){
+			System.setProperty("webdriver.gecko.driver","/Users/madhavareddy/eclipse-workspace/ma_support_files/geckodriver");
+			driver = new FirefoxDriver();
+		}else if(browserType.equalsIgnoreCase("IE")) {
+			driver = new InternetExplorerDriver();
+		}
+		driver.manage().window().maximize();
+		driver.get(appUrl);
+		return driver;
+	}
+	
+	public static WebDriver openAppByHub(String browserType, String appUrl) throws Exception {
+		WebDriver driver=null;	
+		if(browserType.equalsIgnoreCase("chrome")) {
+			System.setProperty("webdriver.chrome.driver", "/Users/madhavareddy/eclipse-workspace/ma_support_files/chromedriver");
 			//driver = new RemoteWebDriver("http://localhost:9515", DesiredCapabilities.chrome());
 			driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), DesiredCapabilities.chrome());
 			driver = new ChromeDriver();
 		}else if(browserType.equalsIgnoreCase("Firefox")){
 			// Below line is needed for the latest firefox browsers. you need to download the Geko driver and give the path.
 			System.setProperty("webdriver.gecko.driver","/Users/madhavareddy/eclipse-workspace/ma_support_files/geckodriver");
+			
+			// Since we are directing the driver to run on selenium remote webdriver, we need to run the belo command before starting this test.
+			// java -jar selenium-server-standalone-3.11.0.jar -role hub
+			
 			driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), new FirefoxOptions());
 			driver = new FirefoxDriver();
 		}else if(browserType.equalsIgnoreCase("IE")) {

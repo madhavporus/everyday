@@ -12,13 +12,16 @@ import org.testng.annotations.BeforeTest;
 import com.y18.cMonthMarch12.helpers.*;
 import com.y18.cMonthMarch12.pages.LoginPageM12;
 
+//If you want to run this test on selenium remote webdriver, we need to run server locally using the below command before starting this test.
+// java -jar selenium-server-standalone-3.11.0.jar -role hub
 
 public class LoginTestM12 {
 WebDriver driver;
  
 @BeforeTest
 public void openAppInBrowser() throws Exception {
-	driver = BrowserFactory.openAppByAnyBrowserType("Firefox", "https://www.amazon.com");
+	//driver = BrowserFactory.openAppByAnyBrowserType("chrome", "https://www.amazon.com");
+	driver = BrowserFactory.openAppByAnyBrowserType("firefox", "https://www.amazon.com");
 }
 
 @Test(priority=1)

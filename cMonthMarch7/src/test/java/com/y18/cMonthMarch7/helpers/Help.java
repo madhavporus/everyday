@@ -15,8 +15,10 @@ public class Help {
 	
 	public static WebDriver startBrowser(String browserKind) {
 		if(browserKind.equalsIgnoreCase("chrome")) {
+			System.setProperty("webdriver.chrome.driver", "/Users/madhavareddy/eclipse-workspace/ma_support_files/chromedriver");
 			driver = new ChromeDriver();
 		} else if(browserKind.equalsIgnoreCase("firefox")){
+			System.setProperty("webdriver.gecko.driver","/Users/madhavareddy/eclipse-workspace/ma_support_files/geckodriver");
 			driver = new FirefoxDriver();
 		} else if(browserKind.equalsIgnoreCase("ie")) {
 			driver = new InternetExplorerDriver();

@@ -13,17 +13,20 @@ th, td {
 
 <head>
 <meta charset="UTF-8">
-<title>Madhava's web page - for automated testing!</title>
+<title>Madhava's web page - Home Page Courses!</title>
 </head>
 <body>
 
-
+	<form>
+  			<div id="bloc1">Result of action:</div>
+  			<div id="bloc2"><input type="text" id="actionResult"size="+200"></div>
+	</form>
+	
 	<form>
 		<h1>Radio Button</h1>
-		<input type="radio" name="course" value="jr" checked>Java
-		Radio<br> <input type="radio" name="course" value="sr">Selenium
-		Radio<br> <input type="radio" class="xyz" name="course" value="jr">Jenkins
-		Radio
+		<input type="radio" name="course" value="You have selected a radio button of Java" onchange=myFunction(this.value)>Java
+		<br> <input type="radio" name="course" value="You have selected a radio button of Selenium" onchange=myFunction(this.value)>Selenium
+		<br> <input type="radio" class="xyz" name="course" value="You have selected a radio button of Jenkins" onchange=myFunction(this.value)>Jenkins
 	</form>
 
 	<form>
@@ -103,6 +106,14 @@ th, td {
 			<td>Last cell in Parent table - JAVA Collections!</td>
 		</tr>
 	</table>
+	
+	<script>
+function myFunction(val) {
+	<!--Commented below line is to display a value in alert dialog box -->
+   <!--alert("The input value has changed. The new value is: " + val); --> 
+    document.getElementById('actionResult').value =val;
+}
+</script>
 
 
 </body>

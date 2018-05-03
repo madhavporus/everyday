@@ -1,0 +1,37 @@
+{
+	"Clientengagements": {
+		"Apple": {
+			"workhours": 60,
+			"hourly_rate": 50,
+			"fixed_rate": 60
+		},
+		"Amazon": {
+			"workhours": 80,
+			"hourly_rate": 30,
+			"fixed_rate": 40
+		},
+		"Google": {
+			"workhours": 99,
+			"hourly_rate": 33,
+			"fixed_rate": 44
+		}
+	},
+	"XClientengagements": {
+		"Apple": {
+			"workhours": 60,
+			"hourly_rate": 50,
+			"fixed_rate": 60
+		},
+		"Amazon": {
+			"workhours": 80,
+			"hourly_rate": 30,
+			"fixed_rate": 40
+		},
+		"Google": {
+			"workhours": 99,
+			"hourly_rate": 33,
+			"fixed_rate": 44
+		}
+	}
+	
+}

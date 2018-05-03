@@ -1,0 +1,24 @@
+{
+	"appURL": "www.google.com",
+	"userID": "Maddy",
+	"pwd": "abcPassword",
+	"clientEngagements": [{
+			"name": "Apple",
+			"hoursWorked": 120,
+			"fixedRate": 60,
+			"hourlyRate": 80
+		},
+		{
+			"name": "Google",
+			"hoursWorked": 140,
+			"fixedRate": 69,
+			"hourlyRate": 89
+		},
+		{
+			"name": "Amazon",
+			"hoursWorked": 12,
+			"fixedRate": 6,
+			"hourlyRate": 8
+		}
+	]
+}

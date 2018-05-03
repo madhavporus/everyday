@@ -5,7 +5,8 @@
     <classes>
       <class name="com.y18.e2eProject.tests.UITests">
         <methods>
-          <include name="selectRadio"/>
+          <include name="closeall"/>
+          <include name="dynamicPage"/>
         </methods>
       </class> <!-- com.y18.e2eProject.tests.UITests -->
     </classes>

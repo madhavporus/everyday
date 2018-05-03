@@ -1,0 +1,12 @@
+{
+
+	"MACCHAR":{
+	"Browser":"Chrome",
+	"OS":"mac"
+	},
+	
+	"MACFIR":{
+	"Browser":"Firefox",
+	"OS":"mac"
+	}
+}

@@ -1,5 +1,10 @@
 {
-	"homePageUrl": "file:///Users/madhavareddy/eclipse-workspace/everyday/e2eProject/src/main/webapp/mwebapp.html",
-	"homePageTitle":"Madhava's web page - for automated testing!"
+	"homePageUrl": "file:///Users/madhavareddy/eclipse-workspace/everyday/e2eProject/src/main/webapp/homepagecourses.html",
+	"homePageTitle":"Madhava's web page - Home Page Courses!",
+	"homePageTextForJenkinsOption":"You have selected a radio button of Jenkins",
+	"statesPageUrl": "file:///Users/madhavareddy/eclipse-workspace/everyday/e2eProject/src/main/webapp/StatesPage.html",
+	"statesPageTitle":"Madhava's web page - States page!",
+	"dynamicPageURL":"http://the-internet.herokuapp.com/dynamic_loading/1",
+	"expectedDynamicElmTxt":"Hello World!"
 	
 }
