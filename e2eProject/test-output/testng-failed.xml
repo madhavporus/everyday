@@ -6,7 +6,7 @@
       <class name="com.y18.e2eProject.tests.UITests">
         <methods>
           <include name="closeall"/>
-          <include name="dynamicPage"/>
+          <include name="statePage"/>
         </methods>
       </class> <!-- com.y18.e2eProject.tests.UITests -->
     </classes>

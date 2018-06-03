@@ -45,6 +45,6 @@ public void startBrowser() throws Exception {
 
 @AfterMethod
 public void closeall() {
-	GoTo.closeDriver();
+	//GoTo.closeDriver();
 }
 }

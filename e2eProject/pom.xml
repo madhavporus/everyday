@@ -10,12 +10,74 @@
   <name>e2eProject</name>
   <url>http://maven.apache.org</url>
 
+<!--  # 1 YOU DEFINE THE SPECIAL CONFIGS HERE IN PROPERTIES -->
+<!-- ****************************************************** -->
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-  <dependencies>
+<!--  # 1 YOU DEFINE THE PLUGINS HERE..-->
+
+<build>
+	<plugins>
+	<!-- ************************************************************************** -->
+		<!-- COMPILE ** COMPILE: Below plugin compiles the code by specified source targets version of java  --> 
+	<!-- ************************************************************************** -->
+		 
+		 <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.6.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+         </plugin>
+         
+         <!-- ************************************************************************** -->
+			 <!-- TEST ** TEST: Below plugin picks up the tests mentioned in 'suiteXmlFile' package  --> 
+		 <!-- ************************************************************************** -->
+
+         <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.21.0</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+      
+      <!-- ************************************************************************** -->
+      		<!-- BUILD ** BUILD: Below is the BUILD plugin which creates a package(JAR/WAR/EAR) after test -->
+      <!-- ************************************************************************** -->
+         <plugin>
+		<groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-source-plugin</artifactId>
+		<executions>
+			<execution>
+				<id>attach-sources</id>
+				<goals>
+					<goal>jar</goal>
+				</goals>
+			</execution>
+		</executions>
+	   </plugin>
+      
 	
+	</plugins>
+
+
+</build>
+
+
+
+
+
+<!--  # 3 YOU DEFINE THE LIST OF PLUG IN NEEDED FOR YOUR PROJECT HERE IN DEPENDENCIES -->
+<!-- ****************************************************** -->
+  <dependencies>	
   <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
@@ -48,19 +110,5 @@
 </dependencies>
 
 
-   <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.7.0</version>
-          <configuration>
-            <source>1.8</source>
-            <target>1.8</target>
-          </configuration>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
+  
 </project>
